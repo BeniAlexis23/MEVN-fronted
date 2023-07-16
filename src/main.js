@@ -16,7 +16,8 @@ import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 
 // Agregamos la URL base de nuestra API
-axios.defaults.baseURL = 'http://localhost:3000/api';
+//axios.defaults.baseURL = 'http://localhost:3000/api';
+axios.defaults.baseURL = 'mongodb+srv://MEVN-2023:8TLOdCd7c0ulMg9m@cluster0.ztd5zkf.mongodb.net/?retryWrites=true&w=majority';
 
 Vue.config.productionTip = false
 
